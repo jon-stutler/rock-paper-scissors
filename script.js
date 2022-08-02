@@ -16,16 +16,16 @@ function playRound(playerSelection) {
         (playerSelection == 'Paper' && computerSelection == 'Rock')) {
  
         playerScore += 1
-        result = ('<strong>You Win!</strong> ' + playerSelection + ' beats ' + computerSelection)
+        result = ('<strong>You Win!</strong> ' + playerSelection + ' beats ' + computerSelection +'.')
     }
 
     else if (playerSelection == computerSelection) {
-        result = ('<strong>Draw!</strong> You both chose ' + playerSelection)
+        result = ('<strong>Draw!</strong> You both chose ' + playerSelection + '.')
     }
 
     else {
         computerScore += 1
-        result = ('<strong>You Lose!</strong> ' + computerSelection + ' beats ' + playerSelection)
+        result = ('<strong>You Lose!</strong> ' + computerSelection + ' beats ' + playerSelection +'.')
     }
 
     document.getElementById('choices').innerHTML = "You chose: " + playerSelection +
