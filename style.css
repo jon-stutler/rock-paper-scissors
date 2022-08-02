@@ -15,3 +15,12 @@ input {
     text-transform: uppercase;
     letter-spacing: .5px;
 }
+
+input:hover {
+    transform: scale(1.05);
+
+}
+
+input:active {
+    transform: scale(0.95);
+}
