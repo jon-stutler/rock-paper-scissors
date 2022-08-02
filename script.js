@@ -28,14 +28,11 @@ function playRound(playerSelection) {
         result = ('<strong>You Lose!</strong> ' + computerSelection + ' beats ' + playerSelection +'.')
     }
 
-    document.getElementById('choices').innerHTML = "You chose: " + playerSelection +
-    "<br>Computer chose: " + computerSelection
+    document.getElementById('choices').innerHTML = "Computer chose: " + computerSelection
 
     document.getElementById('result').innerHTML = result
-    document.getElementById('score').innerHTML = "Computer's Score: " + computerScore +
-    "<br>Your Score: " + playerScore
+    document.getElementById('score').innerHTML = "Your Score: " + playerScore + "<br>Computer's Score: " + computerScore
 
-    
 }
 
 buttons.forEach(button =>{
