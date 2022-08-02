@@ -5,3 +5,13 @@
 #result {
     font-size: 1.4em;
 }
+
+input {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 23px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
