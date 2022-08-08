@@ -32,6 +32,7 @@ input {
     padding: 6px 23px;
     letter-spacing: .5px;
     transition: 0.5s;
+    margin: 3px;
 }
 
 input:hover {
