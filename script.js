@@ -15,16 +15,16 @@ function playRound(playerSelection) {
         (playerSelection == 'Scissors' && computerSelection == 'Paper') ||
         (playerSelection == 'Paper' && computerSelection == 'Rock')) {
         playerScore += 1
-        result = ('<strong>You Win!</strong><br> ' + playerSelection + ' beats ' + computerSelection +'.')
+        result = ('<strong>You Win!</strong><div style="font-size: .7em;"> ' + playerSelection + ' beats ' + computerSelection +'.</div>')
     }
 
     else if (playerSelection == computerSelection) {
-        result = ('<strong>Draw!</strong><br> You both chose ' + playerSelection + '.')
+        result = ('<strong>Draw!</strong><div style="font-size: .7em;">You both chose ' + playerSelection + '.</div>')
     }
 
     else {
         computerScore += 1
-        result = ('<strong>You Lose!</strong><br> ' + computerSelection + ' beats ' + playerSelection +'.')
+        result = ('<strong>You Lose!</strong><div style="font-size: .7em;"> ' + computerSelection + ' beats ' + playerSelection +'.</div>')
     }
 
     document.getElementById('choices').innerHTML = "Computer chose: " + computerSelection
