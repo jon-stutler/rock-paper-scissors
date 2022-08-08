@@ -22,6 +22,7 @@ h1 {
 }
 
 input {
+    -webkit-appearance: none;
     color: white;
     background-color: #671ae4;
     border: 1px solid white;
