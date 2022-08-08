@@ -25,7 +25,7 @@ function playRound(playerSelection) {
         result = ('<strong>You Win!</strong><div style="font-size: .7em;"> ' + playerSelection + ' beats ' + computerSelection +'.</div>');
 
         if (playerScore >= 5) {
-            restart = '<strong>New Game?</strong';
+            restart = 'New Game?';
             disableButtons ();
         }
     }
@@ -39,7 +39,7 @@ function playRound(playerSelection) {
         result = ('<strong>You Lose!</strong><div style="font-size: .7em;"> ' + computerSelection + ' beats ' + playerSelection +'.</div>');
 
         if (computerScore >= 5) {
-            restart = '<strong>New Game?</strong';
+            restart = 'New Game?';
             disableButtons ();
         }
     }

@@ -46,5 +46,13 @@ input:active {
 
 #score {
     color: #ffeb3b;
-    font-weight: 700;
+}
+
+#restart {
+    font-family: 'Londrina Solid';
+    color: #ffeb3b;
+}
+
+a {
+    color: #ffeb3b;
 }
