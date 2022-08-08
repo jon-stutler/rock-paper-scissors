@@ -14,25 +14,22 @@ function playRound(playerSelection) {
     if ((playerSelection == 'Rock' && computerSelection == 'Scissors') ||
         (playerSelection == 'Scissors' && computerSelection == 'Paper') ||
         (playerSelection == 'Paper' && computerSelection == 'Rock')) {
- 
         playerScore += 1
-        result = ('<strong>You Win!</strong> ' + playerSelection + ' beats ' + computerSelection +'.')
+        result = ('<strong>You Win!</strong><br> ' + playerSelection + ' beats ' + computerSelection +'.')
     }
 
     else if (playerSelection == computerSelection) {
-        result = ('<strong>Draw!</strong> You both chose ' + playerSelection + '.')
+        result = ('<strong>Draw!</strong><br> You both chose ' + playerSelection + '.')
     }
 
     else {
         computerScore += 1
-        result = ('<strong>You Lose!</strong> ' + computerSelection + ' beats ' + playerSelection +'.')
+        result = ('<strong>You Lose!</strong><br> ' + computerSelection + ' beats ' + playerSelection +'.')
     }
 
     document.getElementById('choices').innerHTML = "Computer chose: " + computerSelection
-
     document.getElementById('result').innerHTML = result
     document.getElementById('score').innerHTML = "Your Score: " + playerScore + "<br>Computer's Score: " + computerScore
-
 }
 
 buttons.forEach(button =>{
