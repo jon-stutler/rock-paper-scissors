@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #3c1b71;
+    background-color: #282828;
     padding-left: 10px;
 }
 
@@ -24,7 +24,7 @@ h1 {
 input {
     -webkit-appearance: none;
     color: white;
-    background-color: #671ae4;
+    background-color: #1db789;
     border: 1px solid white;
     font-weight: 700;
     font-size: 1em;
@@ -50,9 +50,9 @@ input:active {
 
 #restart {
     font-family: 'Londrina Solid';
-    color: #ffeb3b;
+    color: #3cdfae;
 }
 
 a {
-    color: #ffeb3b;
+    color: #3cdfae;
 }
